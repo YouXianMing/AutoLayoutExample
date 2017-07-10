@@ -21,6 +21,8 @@
     
     [super viewDidLoad];
     
+    // http://devetc.org/code/2014/07/07/auto-layout-and-views-that-wrap.html
+    
     // 通知中心(检测屏幕旋转)
     self.notificationCenter = [DefaultNotificationCenter defaultNotificationCenterWithDelegate:self addNotificationNames:^(NSMutableArray<NSString *> *names) {
         
