@@ -23,6 +23,7 @@
 #import "ContentHuggingViewController.h"
 #import "CustomLayoutMixFrameViewController.h"
 #import "IntrinsicContentViewController.h"
+#import "BaselineLayoutViewController.h"
 
 @interface ListViewController ()
 
@@ -59,6 +60,7 @@
     [self.datas addObject:[ListItem listItemWithClassName:[ContentHuggingViewController class]        title:@"ContentHugging"]];
     [self.datas addObject:[ListItem listItemWithClassName:[CustomLayoutMixFrameViewController class]  title:@"Layout与Frame混合的自定义view"]];
     [self.datas addObject:[ListItem listItemWithClassName:[IntrinsicContentViewController class]      title:@"IntrinsicContent"]];
+    [self.datas addObject:[ListItem listItemWithClassName:[BaselineLayoutViewController class]        title:@"BaselineLayoutView"]];
 }
 
 #pragma mark - UITableViewDelegate & UITableViewDataSource

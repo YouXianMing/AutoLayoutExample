@@ -11,6 +11,10 @@
 		C52529B11F13102B009C7327 /* CustomLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C52529B01F13102B009C7327 /* CustomLayoutView.m */; };
 		C52529B71F132487009C7327 /* IntrinsicContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52529B61F132487009C7327 /* IntrinsicContentViewController.m */; };
 		C52529BB1F134E5F009C7327 /* IntrinsicContentSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C52529BA1F134E5F009C7327 /* IntrinsicContentSizeView.m */; };
+		C52529BF1F135F1F009C7327 /* BaselineLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52529BE1F135F1F009C7327 /* BaselineLayoutViewController.m */; };
+		C52529C21F135FA1009C7327 /* BaselineLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C52529C11F135FA1009C7327 /* BaselineLayoutView.m */; };
+		C52529CA1F136430009C7327 /* baseLineView_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C52529C91F136430009C7327 /* baseLineView_01@2x.png */; };
+		C52529CC1F13646F009C7327 /* baseLineView_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C52529CB1F13646F009C7327 /* baseLineView_02@2x.png */; };
 		C598F0621F0F1ABF008566D0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C598F0491F0F1ABF008566D0 /* MASCompositeConstraint.m */; };
 		C598F0631F0F1ABF008566D0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C598F04C1F0F1ABF008566D0 /* MASConstraint.m */; };
 		C598F0641F0F1ABF008566D0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C598F04E1F0F1ABF008566D0 /* MASConstraintMaker.m */; };
@@ -80,6 +84,12 @@
 		C52529B61F132487009C7327 /* IntrinsicContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrinsicContentViewController.m; sourceTree = "<group>"; };
 		C52529B91F134E5F009C7327 /* IntrinsicContentSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrinsicContentSizeView.h; sourceTree = "<group>"; };
 		C52529BA1F134E5F009C7327 /* IntrinsicContentSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrinsicContentSizeView.m; sourceTree = "<group>"; };
+		C52529BD1F135F1F009C7327 /* BaselineLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaselineLayoutViewController.h; sourceTree = "<group>"; };
+		C52529BE1F135F1F009C7327 /* BaselineLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaselineLayoutViewController.m; sourceTree = "<group>"; };
+		C52529C01F135FA1009C7327 /* BaselineLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaselineLayoutView.h; sourceTree = "<group>"; };
+		C52529C11F135FA1009C7327 /* BaselineLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaselineLayoutView.m; sourceTree = "<group>"; };
+		C52529C91F136430009C7327 /* baseLineView_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseLineView_01@2x.png"; sourceTree = "<group>"; };
+		C52529CB1F13646F009C7327 /* baseLineView_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseLineView_02@2x.png"; sourceTree = "<group>"; };
 		C598F0481F0F1ABF008566D0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		C598F0491F0F1ABF008566D0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		C598F04A1F0F1ABF008566D0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -235,6 +245,19 @@
 			name = IntrinsicContentViewController;
 			sourceTree = "<group>";
 		};
+		C52529BC1F135EFF009C7327 /* BaselineLayoutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C52529BD1F135F1F009C7327 /* BaselineLayoutViewController.h */,
+				C52529BE1F135F1F009C7327 /* BaselineLayoutViewController.m */,
+				C52529C01F135FA1009C7327 /* BaselineLayoutView.h */,
+				C52529C11F135FA1009C7327 /* BaselineLayoutView.m */,
+				C52529C91F136430009C7327 /* baseLineView_01@2x.png */,
+				C52529CB1F13646F009C7327 /* baseLineView_02@2x.png */,
+			);
+			name = BaselineLayoutViewController;
+			sourceTree = "<group>";
+		};
 		C598F0461F0F1ABF008566D0 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +350,7 @@
 				C598F0E01F10524E008566D0 /* ContentHuggingViewController */,
 				C52529AE1F130F99009C7327 /* CustomLayoutMixFrameViewController */,
 				C52529B81F132495009C7327 /* IntrinsicContentViewController */,
+				C52529BC1F135EFF009C7327 /* BaselineLayoutViewController */,
 			);
 			name = UIViewControllers;
 			sourceTree = "<group>";
@@ -640,6 +664,8 @@
 			files = (
 				C59D88031F0E327D0069D12F /* LaunchScreen.storyboard in Resources */,
 				C59D88001F0E327D0069D12F /* Assets.xcassets in Resources */,
+				C52529CA1F136430009C7327 /* baseLineView_01@2x.png in Resources */,
+				C52529CC1F13646F009C7327 /* baseLineView_02@2x.png in Resources */,
 				C59D87FE1F0E327D0069D12F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,12 +690,14 @@
 				C598F0DE1F104CE5008566D0 /* CompressionResistanceViewController.m in Sources */,
 				C59D88181F0E34830069D12F /* ControllerBaseViewConfig.m in Sources */,
 				C59D87F81F0E327D0069D12F /* AppDelegate.m in Sources */,
+				C52529BF1F135F1F009C7327 /* BaselineLayoutViewController.m in Sources */,
 				C59D87F51F0E327D0069D12F /* main.m in Sources */,
 				C59D880C1F0E33C70069D12F /* BaseCustomAutolayoutViewController.m in Sources */,
 				C598F0DB1F1045F0008566D0 /* ConstraintInstallViewController.m in Sources */,
 				C598F0AE1F0FCA06008566D0 /* CellDataAdapter.m in Sources */,
 				C598F06B1F0F1ABF008566D0 /* ViewController+MASAdditions.m in Sources */,
 				C598F0781F0F37FE008566D0 /* GCDSemaphore.m in Sources */,
+				C52529C21F135FA1009C7327 /* BaselineLayoutView.m in Sources */,
 				C598F0B11F0FD3E3008566D0 /* DefaultNotificationCenter.m in Sources */,
 				C598F0661F0F1ABF008566D0 /* MASViewAttribute.m in Sources */,
 				C598F0D71F103BFA008566D0 /* PriorityConstraintViewController.m in Sources */,

@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     UIViewController       *controller           = [ListViewController new];
-    controller.title                             = @"Masonry";
+    controller.title                             = @"AutoLayout";
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
     
     // Init window.
