@@ -75,7 +75,7 @@
         
         [GCDQueue executeInMainQueue:^{
             
-            // 重新设置设定尺寸的约束
+            // 重新设定尺寸为200x200
             constraint.mas_equalTo(CGSizeMake(200, 200));
             
         } afterDelaySecs:2.f];

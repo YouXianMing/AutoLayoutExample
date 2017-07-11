@@ -59,7 +59,6 @@
 		C598F0E71F1071D5008566D0 /* ExpendCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C598F0E61F1071D5008566D0 /* ExpendCellController.m */; };
 		C598F0EA1F107295008566D0 /* ExpendLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C598F0E91F107295008566D0 /* ExpendLayoutCell.m */; };
 		C598F0ED1F1073D0008566D0 /* ExpendLayoutCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C598F0EC1F1073D0008566D0 /* ExpendLayoutCellModel.m */; };
-		C598F0F01F108123008566D0 /* CustomExpendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C598F0EF1F108123008566D0 /* CustomExpendModel.m */; };
 		C59D87F51F0E327D0069D12F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D87F41F0E327D0069D12F /* main.m */; };
 		C59D87F81F0E327D0069D12F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D87F71F0E327D0069D12F /* AppDelegate.m */; };
 		C59D87FE1F0E327D0069D12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D87FC1F0E327D0069D12F /* Main.storyboard */; };
@@ -184,8 +183,6 @@
 		C598F0E91F107295008566D0 /* ExpendLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendLayoutCell.m; sourceTree = "<group>"; };
 		C598F0EB1F1073D0008566D0 /* ExpendLayoutCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpendLayoutCellModel.h; sourceTree = "<group>"; };
 		C598F0EC1F1073D0008566D0 /* ExpendLayoutCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpendLayoutCellModel.m; sourceTree = "<group>"; };
-		C598F0EE1F108123008566D0 /* CustomExpendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomExpendModel.h; sourceTree = "<group>"; };
-		C598F0EF1F108123008566D0 /* CustomExpendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomExpendModel.m; sourceTree = "<group>"; };
 		C59D87F01F0E327D0069D12F /* AutoLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D87F41F0E327D0069D12F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C59D87F61F0E327D0069D12F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -438,8 +435,6 @@
 				C598F0B51F0FD599008566D0 /* CustomCellAutoHeightViewController.m */,
 				C598F0B71F0FD63A008566D0 /* CustomCellAutoHeightInfoCell.h */,
 				C598F0B81F0FD63A008566D0 /* CustomCellAutoHeightInfoCell.m */,
-				C598F0EE1F108123008566D0 /* CustomExpendModel.h */,
-				C598F0EF1F108123008566D0 /* CustomExpendModel.m */,
 			);
 			name = CustomCellAutoHeightViewController;
 			sourceTree = "<group>";
@@ -732,7 +727,6 @@
 				C598F0CB1F0FD9E1008566D0 /* FontAttributeConfig.m in Sources */,
 				C598F0B91F0FD63A008566D0 /* CustomCellAutoHeightInfoCell.m in Sources */,
 				C598F08D1F0F738E008566D0 /* EdgeViewController.m in Sources */,
-				C598F0F01F108123008566D0 /* CustomExpendModel.m in Sources */,
 				C59D88191F0E34830069D12F /* ShowLoadingView.m in Sources */,
 				C59D88111F0E34200069D12F /* ConstraintItem.m in Sources */,
 				C598F0D31F0FDDB2008566D0 /* UIView+SetRect.m in Sources */,
