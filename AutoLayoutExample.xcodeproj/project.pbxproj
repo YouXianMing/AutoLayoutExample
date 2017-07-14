@@ -69,6 +69,9 @@
 		C59D88121F0E34200069D12F /* ConstraintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D88101F0E34200069D12F /* ConstraintManager.m */; };
 		C59D88181F0E34830069D12F /* ControllerBaseViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D88151F0E34830069D12F /* ControllerBaseViewConfig.m */; };
 		C59D88191F0E34830069D12F /* ShowLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D88171F0E34830069D12F /* ShowLoadingView.m */; };
+		C5B8D3AE1F18B887001B57DB /* MultiStyleCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B8D3AD1F18B887001B57DB /* MultiStyleCellViewController.m */; };
+		C5B8D3B21F18B95C001B57DB /* MultiStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B8D3B11F18B95C001B57DB /* MultiStyleCell.m */; };
+		C5B8D3B51F18BA27001B57DB /* MultiStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B8D3B41F18BA27001B57DB /* MultiStyleModel.m */; };
 		C5CD0DEC1F10E83800D46262 /* TableViewMixLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CD0DEB1F10E83800D46262 /* TableViewMixLayoutViewController.m */; };
 		C5CD0DEF1F10EA2D00D46262 /* LayoutTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CD0DEE1F10EA2D00D46262 /* LayoutTypeCell.m */; };
 		C5CD0DF21F10EC7B00D46262 /* ManualLayoutTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CD0DF11F10EC7B00D46262 /* ManualLayoutTypeCell.m */; };
@@ -201,6 +204,12 @@
 		C59D88151F0E34830069D12F /* ControllerBaseViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerBaseViewConfig.m; sourceTree = "<group>"; };
 		C59D88161F0E34830069D12F /* ShowLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowLoadingView.h; sourceTree = "<group>"; };
 		C59D88171F0E34830069D12F /* ShowLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowLoadingView.m; sourceTree = "<group>"; };
+		C5B8D3AC1F18B887001B57DB /* MultiStyleCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiStyleCellViewController.h; sourceTree = "<group>"; };
+		C5B8D3AD1F18B887001B57DB /* MultiStyleCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiStyleCellViewController.m; sourceTree = "<group>"; };
+		C5B8D3B01F18B95C001B57DB /* MultiStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiStyleCell.h; sourceTree = "<group>"; };
+		C5B8D3B11F18B95C001B57DB /* MultiStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiStyleCell.m; sourceTree = "<group>"; };
+		C5B8D3B31F18BA27001B57DB /* MultiStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiStyleModel.h; sourceTree = "<group>"; };
+		C5B8D3B41F18BA27001B57DB /* MultiStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiStyleModel.m; sourceTree = "<group>"; };
 		C5CD0DEA1F10E83800D46262 /* TableViewMixLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewMixLayoutViewController.h; sourceTree = "<group>"; };
 		C5CD0DEB1F10E83800D46262 /* TableViewMixLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewMixLayoutViewController.m; sourceTree = "<group>"; };
 		C5CD0DED1F10EA2D00D46262 /* LayoutTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutTypeCell.h; sourceTree = "<group>"; };
@@ -348,6 +357,7 @@
 				C52529AE1F130F99009C7327 /* CustomLayoutMixFrameViewController */,
 				C52529B81F132495009C7327 /* IntrinsicContentViewController */,
 				C52529BC1F135EFF009C7327 /* BaselineLayoutViewController */,
+				C5B8D3AF1F18B89F001B57DB /* MultiStyleCellViewController */,
 			);
 			name = UIViewControllers;
 			sourceTree = "<group>";
@@ -576,6 +586,19 @@
 			name = ConstraintManager;
 			sourceTree = "<group>";
 		};
+		C5B8D3AF1F18B89F001B57DB /* MultiStyleCellViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5B8D3AC1F18B887001B57DB /* MultiStyleCellViewController.h */,
+				C5B8D3AD1F18B887001B57DB /* MultiStyleCellViewController.m */,
+				C5B8D3B01F18B95C001B57DB /* MultiStyleCell.h */,
+				C5B8D3B11F18B95C001B57DB /* MultiStyleCell.m */,
+				C5B8D3B31F18BA27001B57DB /* MultiStyleModel.h */,
+				C5B8D3B41F18BA27001B57DB /* MultiStyleModel.m */,
+			);
+			name = MultiStyleCellViewController;
+			sourceTree = "<group>";
+		};
 		C5CD0DE81F10E81200D46262 /* UIView+SetRect */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +704,7 @@
 				C598F06A1F0F1ABF008566D0 /* View+MASAdditions.m in Sources */,
 				C598F07F1F0F6C4F008566D0 /* ListItem.m in Sources */,
 				C5CD0DEF1F10EA2D00D46262 /* LayoutTypeCell.m in Sources */,
+				C5B8D3AE1F18B887001B57DB /* MultiStyleCellViewController.m in Sources */,
 				C598F0761F0F37FE008566D0 /* GCDGroup.m in Sources */,
 				C598F0DE1F104CE5008566D0 /* CompressionResistanceViewController.m in Sources */,
 				C59D88181F0E34830069D12F /* ControllerBaseViewConfig.m in Sources */,
@@ -691,6 +715,7 @@
 				C598F0DB1F1045F0008566D0 /* ConstraintInstallViewController.m in Sources */,
 				C598F0AE1F0FCA06008566D0 /* CellDataAdapter.m in Sources */,
 				C598F06B1F0F1ABF008566D0 /* ViewController+MASAdditions.m in Sources */,
+				C5B8D3B51F18BA27001B57DB /* MultiStyleModel.m in Sources */,
 				C598F0781F0F37FE008566D0 /* GCDSemaphore.m in Sources */,
 				C52529C21F135FA1009C7327 /* BaselineLayoutView.m in Sources */,
 				C598F0B11F0FD3E3008566D0 /* DefaultNotificationCenter.m in Sources */,
@@ -728,6 +753,7 @@
 				C598F0B91F0FD63A008566D0 /* CustomCellAutoHeightInfoCell.m in Sources */,
 				C598F08D1F0F738E008566D0 /* EdgeViewController.m in Sources */,
 				C59D88191F0E34830069D12F /* ShowLoadingView.m in Sources */,
+				C5B8D3B21F18B95C001B57DB /* MultiStyleCell.m in Sources */,
 				C59D88111F0E34200069D12F /* ConstraintItem.m in Sources */,
 				C598F0D31F0FDDB2008566D0 /* UIView+SetRect.m in Sources */,
 				C598F0671F0F1ABF008566D0 /* MASViewConstraint.m in Sources */,

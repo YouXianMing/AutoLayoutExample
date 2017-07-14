@@ -24,6 +24,7 @@
 #import "CustomLayoutMixFrameViewController.h"
 #import "IntrinsicContentViewController.h"
 #import "BaselineLayoutViewController.h"
+#import "MultiStyleCellViewController.h"
 
 @interface ListViewController ()
 
@@ -61,6 +62,7 @@
     [self.datas addObject:[ListItem listItemWithClassName:[CustomLayoutMixFrameViewController class]  title:@"Layout与Frame混合的自定义view"]];
     [self.datas addObject:[ListItem listItemWithClassName:[IntrinsicContentViewController class]      title:@"IntrinsicContent"]];
     [self.datas addObject:[ListItem listItemWithClassName:[BaselineLayoutViewController class]        title:@"BaselineLayoutView"]];
+    [self.datas addObject:[ListItem listItemWithClassName:[MultiStyleCellViewController class]        title:@"多样式cell"]];
 }
 
 #pragma mark - UITableViewDelegate & UITableViewDataSource
